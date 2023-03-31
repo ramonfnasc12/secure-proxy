@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@vtex/clients": "^2.21.0",
     "@vtex/payment-provider": "^1.4.0",
     "axios": "^0.21.1",
     "co-body": "^6.0.0",
@@ -11,10 +12,10 @@
     "@types/jest": "^24.0.18",
     "@types/node": "^12.0.0",
     "@types/ramda": "types/npm-ramda#dist",
-    "@vtex/api": "6.45.6",
+    "@vtex/api": "6.45.15",
     "@vtex/test-tools": "^1.0.0",
-    "typescript": "3.9.7",
-    "vtex.payment-provider-example": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.payment-provider-example@1.0.2/public/_types/react"
+    "partnerintegrationbra.payment-provider": "https://ppf--partnerintegrationbra.myvtex.com/_v/private/typings/linked/v1/partnerintegrationbra.payment-provider@0.1.6+build1679408965/public/@types/partnerintegrationbra.payment-provider",
+    "typescript": "3.9.7"
   },
   "scripts": {
     "lint": "tsc --noEmit --pretty"

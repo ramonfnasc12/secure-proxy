@@ -1,7 +1,7 @@
 {
-  "name": "payment-provider-example",
-  "vendor": "vtex",
-  "version": "1.2.0",
+  "name": "payment-provider-secure",
+  "vendor": "partnerintegrationbra",
+  "version": "0.1.7",
   "title": "Payment Provider Example",
   "description": "Reference app for Payment-Provider protocol implementers",
   "builders": {
@@ -22,8 +22,8 @@
     {
       "name": "outbound-access",
       "attrs": {
-        "host": "heimdall.vtexpayments.com.br",
-        "path": "/api/payment-provider/callback/*"
+        "host": "*",
+        "path": "*"
       }
     }
   ],
